@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h3 style="text-align: center">BIODATA FORM </h3>
+  </head>
+  <body>
+    <form action="">
+
+      <label for="img">Your profile picture</label><br />
+      <img src="img_chania.jpg" alt="flowers in chainia" width="120" height="120">
+      <br/><br/>
+
+
+      <label for="fname">First Name:</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="First Name"
+      /><br /><br />
+
+      <label for="lname">Last Name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Last Name"
+      /><br /><br />
+
+      <label for="birth">Birth:</label><br />
+      <input id="birth" name="birth" type="date" /><br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Format: 0***-****-****"
+        pattern="[0]{1}[0-9]{3}-[0-9]{4}-[0-9]{4}"
+        required
+      /><br /><br />
+
+      <label for="secret">NIM</label><br />
+      <input type="text" id="Secret" name="Secret" />
+      <input type="hidden" id="custId" name="custId" value="3487" />
+      <br /><br />
+
+      <label for="Age">Age</label><br />
+      <input
+        type="number"
+        name="ag"
+        id="Age"
+        placeholder="Input Age"
+      /><br /><br />
+
+      <label>Gender</label><br />
+      <label> <input type="radio" name="gender" value="male" /> Male </label>
+      <label>
+        <input type="radio" name="gender" value="female" /> Female
+      </label>
+      <br /><br />
+
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Email"
+        required
+      /><br /><br />
+
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="password"
+        required
+      /><br /><br />
+
+      <label for="semester">Senester (1-8)</label><br />
+      <input
+        type="range"
+        min="1"
+        max="8"
+        id="semester"
+        name="semester"
+      /><br /><br />
+
+      <label>Mata Kuliah</label><br />
+      <input type="checkbox" id="pemweb" name="matkul" />
+      <label for="pemweb">Pemrograman Web</label>
+      <input type="checkbox" id="ppl" name="matkul" />
+      <label for="pemweb">Pemrograman Perangkat Lunak </label> <br />
+      <input type="checkbox" id="manbis" name="matkul" />
+      <label for="pemweb">Manajemen Bisnis </label>
+      <input type="checkbox" id="Etprof" name="matkul" />
+      <label for="pemweb">Etika Profesi </label> <br />
+      <input type="checkbox" id="Lt" name="matkul" />
+      <label for="pemweb">Literasi Teknologi</label>
+      <input type="checkbox" id="TA" name="matkul" />
+      <label for="pemweb">Tugas Akhir 1</label> <br />
+      <input type="checkbox" id="BEC" name="matkul" />
+      <label for="pemweb">Business Comunication </label><br /><br />
+      <label>Class :</label><br />
+      <select id="classn" name="classn">
+        <option value="IOT101">IOT101</option>
+        <option value="DC203">DC203</option>
+        <option value="REK306">REK306</option>
+        <option value="DSP205">DSP205</option>
+      </select>
+      <br /><br />
+
+      <label for="time">Time Enter Class:</label><br />
+      <input type="time" id="time" name="time" />
+      <br /><br />
+
+      <label for="week">Select a Week Entry Class:</label><br />
+      <input type="week" id="week" name="week" />
+      <br /><br />
+
+      <label for="instagram">Add Your Link:</label><br />
+      <input type="url" id="instagram" name="instagram" value="https://www.w3.org/" />
+      <p><a href="https://www.w3.org/">W3C</a>is a link to website on the world wide web</p>
+      <br /><br />
+
+      <label for="photo">Import Your File:</label><br />
+      <input type="file" id="photo" name="photo" />
+      <br /><br />
+
+      <label for="color">Chose Your Favourite Color</label><br />
+      <input type="color" /><br /><br />
+      
+
+      <label>Describe your self below</label><br />
+      <textarea name="message" rows="10" cols="25"> </textarea>
+      <br /><br />
+
+      <input style="margin-right: 92px" type="submit" value="Submit" />
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
